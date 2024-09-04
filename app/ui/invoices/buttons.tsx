@@ -1,6 +1,16 @@
 import { PencilIcon, PlusIcon, TrashIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
+export function searchInvoices() {
+  return (
+    <input
+      type="text"
+      placeholder="Search invoices"
+      className="rounded-lg border p-2"
+    />
+  );
+}
+
 export function CreateInvoice() {
   return (
     <Link
